@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Task manager app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielbustosweb/task-project.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Gabriel Bustos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielbustosweb/task-project/issues"
+  },
+  "homepage": "https://github.com/gabrielbustosweb/task-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
